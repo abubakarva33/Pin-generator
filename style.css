@@ -1,0 +1,74 @@
+.box{
+    display: flex;
+    width: 100%;
+    background-color: blueviolet;
+    justify-content: center;
+    padding: 40px 0px 70px 0px;
+}
+.subbox1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+    width: 520px;
+    height: 550px;
+    background: rgb(114, 11, 11);
+    margin-right: 40px;
+}
+.display{
+    height: 55px;
+    width: 380px;
+    background: #000;
+    border-radius: 0.5rem;
+    color: ghostwhite;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 50px;
+    /* align-items: center; */
+}
+.pin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #000;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.subbox2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    height: 550px;
+    background: rgb(145, 93, 93);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digit{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 10%;
+    background: rgb(110, 25, 25);
+    margin-left: 5px;
+    margin-bottom:5px;
+}
+.submit{
+    margin-top: 20px;
+}
+#dis2{
+    margin-bottom: 40px;
+}
